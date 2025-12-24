@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: mlprojects
+Version: 0.0.1
+Author: Vaishnav
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
