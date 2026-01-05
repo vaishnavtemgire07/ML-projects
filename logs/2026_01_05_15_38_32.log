@@ -1,0 +1,15 @@
+[2026-01-05 15:38:32,482] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2026-01-05 15:38:34,077] 22 root - INFO - Entered the data ingestion method or component
+[2026-01-05 15:38:34,228] 26 root - INFO - Read the dataset as dataframe
+[2026-01-05 15:38:34,228] 27 root - INFO - Dataset columns: ['id', 'carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z', 'price']
+[2026-01-05 15:38:34,995] 33 root - INFO - Raw data is saved
+[2026-01-05 15:38:34,995] 35 root - INFO - Train test split initiated
+[2026-01-05 15:38:36,135] 40 root - INFO - Ingestion of data is completed
+[2026-01-05 15:38:36,402] 74 root - INFO - Train columns: ['id', 'carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z', 'price']
+[2026-01-05 15:38:36,402] 75 root - INFO - Test columns: ['id', 'carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z', 'price']
+[2026-01-05 15:38:36,403] 76 root - INFO - Read train and test data completed
+[2026-01-05 15:38:36,403] 77 root - INFO - Obtaining preprocessor object
+[2026-01-05 15:38:36,403] 47 root - INFO - Numerical columns: ['id', 'carat', 'depth', 'table', 'x', 'y', 'z']
+[2026-01-05 15:38:36,403] 48 root - INFO - Categorical columns: ['cut', 'color', 'clarity']
+[2026-01-05 15:38:36,410] 94 root - INFO - Applying preprocessor object on training and testing data
+[2026-01-05 15:38:36,787] 102 root - INFO - Saved preprocessor object

@@ -1,0 +1,11 @@
+[2026-01-05 15:29:48,858] 161 numexpr.utils - INFO - NumExpr defaulting to 12 threads.
+[2026-01-05 15:29:50,477] 22 root - INFO - Entered the data ingestion method or component
+[2026-01-05 15:29:50,646] 25 root - INFO - Read the dataset as dataframe
+[2026-01-05 15:29:50,810] 30 root - INFO - Raw data is saved
+[2026-01-05 15:29:50,811] 32 root - INFO - Train test split initiated
+[2026-01-05 15:29:51,011] 37 root - INFO - Ingestion of data is completed
+[2026-01-05 15:29:51,230] 58 root - INFO - Read train and test data completed
+[2026-01-05 15:29:51,231] 59 root - INFO - Obtaining preprocessor object
+[2026-01-05 15:29:51,231] 40 root - INFO - Numerical columns: ['id', 'carat', 'depth', 'table', 'x', 'y', 'z']
+[2026-01-05 15:29:51,231] 41 root - INFO - Categorical columns: ['cut', 'color', 'clarity']
+[2026-01-05 15:29:51,240] 72 root - INFO - Applying preprocessor object on training and testing data
