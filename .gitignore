@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Artifacts / models
+artifacts/
+catboost_info/
+
+# OS
+.DS_Store
