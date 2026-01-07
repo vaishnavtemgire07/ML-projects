@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gemstone Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <a href="https://github.com/vaishnavtemgire07/ML-projects.git" class="top-left-link" target="_blank">GitHub Repository Link</a>
+
+    <h1>Gemstone Price Prediction - Vaishnav Temgire</h1>
+
+    <img src="{{ url_for('static', filename='Image/your_profile_pic.jpg') }}" class="profile">
+
+    <div class="form-box">
+      <form action="{{ url_for('predict_datapoint') }}" method="POST">
+
+        <div class="form-group">
+          <label>Carat</label>
+          <input type="text" name="carat">
+        </div>
+
+        <div class="form-group">
+          <label>Depth</label>
+          <input type="text" name="depth">
+        </div>
+
+        <div class="form-group">
+          <label>Table</label>
+          <input type="text" name="table">
+        </div>
+
+        <div class="form-group">
+          <label>x</label>
+          <input type="text" name="x">
+        </div>
+
+        <div class="form-group">
+          <label>y</label>
+          <input type="text" name="y">
+        </div>
+
+        <div class="form-group">
+          <label>z</label>
+          <input type="text" name="z">
+        </div>
+
+        <div class="form-group">
+          <label>Cut</label>
+          <select name="cut">
+            <option>Fair</option>
+            <option>Good</option>
+            <option>Very Good</option>
+            <option>Premium</option>
+            <option>Ideal</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Color</label>
+          <select name="color">
+            <option>D</option>
+            <option>E</option>
+            <option>F</option>
+            <option>G</option>
+            <option>H</option>
+            <option>I</option>
+            <option>J</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Clarity</label>
+          <select name="clarity">
+            <option>I1</option>
+            <option>SI2</option>
+            <option>SI1</option>
+            <option>VS2</option>
+            <option>VS1</option>
+            <option>VVS2</option>
+            <option>VVS1</option>
+            <option>IF</option>
+          </select>
+        </div>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+
+    <h2>Predicted Gemstone Price is : {{ results }}</h2>
+
+  </body>
+</html>
